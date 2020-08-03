@@ -1,3 +1,6 @@
+/* eslint-disable no-console */
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/extensions */
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
@@ -9,4 +12,4 @@ if (environment.production) {
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+  .catch((err) => console.error(err));

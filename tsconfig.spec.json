@@ -2,6 +2,7 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    //"composite": true,                     /* Enable project compilation */
     "outDir": "./out-tsc/spec",
     "types": [
       "jasmine"

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "demo-lint"
+    }
+  },
+  "defaultProject": "demo-lint",
+  "cli": {
+    "analytics": false
+  }
 }
